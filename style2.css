@@ -1,0 +1,46 @@
+body{
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+.heading-3{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkgreen;
+    margin: 0;
+    padding: 5px;
+
+}
+.container{
+    margin: auto;
+    padding: auto;
+    width: 40rem;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.img1{
+    width: 200px;
+    height: 180px;
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    box-shadow: 10px 10px 5px;
+}
+
+.btn{
+    width: 180px;
+    height: 75px;
+    margin: auto;
+    margin-left: 10.5rem;
+    padding: 0px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 7px gray;
+}
